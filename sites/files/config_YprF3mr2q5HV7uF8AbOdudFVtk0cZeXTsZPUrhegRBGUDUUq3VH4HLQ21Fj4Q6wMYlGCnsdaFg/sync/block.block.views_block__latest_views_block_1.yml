@@ -1,0 +1,29 @@
+uuid: c1963ddb-8740-47fb-a8c5-93b87fd67ec9
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.latest_views
+  module:
+    - system
+    - views
+  theme:
+    - drupal8_w3css_theme
+id: views_block__latest_views_block_1
+theme: drupal8_w3css_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:latest_views-block_1'
+settings:
+  id: 'views_block:latest_views-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: '5'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

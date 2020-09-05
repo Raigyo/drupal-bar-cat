@@ -1,0 +1,37 @@
+uuid: c2b8a87e-c0c2-42ae-81b0-169a0845f5fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.related_content
+    - field.field.node.post.field_post_category
+    - field.field.node.post.field_post_comment
+    - field.field.node.post.field_post_content
+    - field.field.node.post.field_related_posts
+    - field.field.node.post.field_use_an_image
+    - node.type.post
+  module:
+    - user
+id: node.post.related_content
+targetEntityType: node
+bundle: post
+mode: related_content
+content:
+  field_post_category:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_post_comment: true
+  field_post_content: true
+  field_related_posts: true
+  field_use_an_image: true

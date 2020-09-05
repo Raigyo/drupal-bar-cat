@@ -1,0 +1,18 @@
+uuid: 28de5cb7-25ff-402d-8b98-4272a56b71b9
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Post
+type: post
+description: 'Post an article for the blog'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

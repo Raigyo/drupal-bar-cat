@@ -1,0 +1,30 @@
+uuid: 6e886b09-2b7b-4ea9-a08a-9947276a8cb6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - system
+  theme:
+    - drupal8_w3css_theme
+_core:
+  default_config_hash: bSh87nayw-Fh7x0auxPJoNHFokn1zFwX9KSyLpcH0Bg
+id: drupal8_w3css_theme_content
+theme: drupal8_w3css_theme
+region: content
+weight: 3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      post: post
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

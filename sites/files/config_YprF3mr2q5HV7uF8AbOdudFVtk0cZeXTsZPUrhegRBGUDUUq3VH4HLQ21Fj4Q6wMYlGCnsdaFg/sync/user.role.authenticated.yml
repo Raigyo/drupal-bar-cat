@@ -1,0 +1,25 @@
+uuid: 4fe0fe44-f69e-49f0-a884-d1d6735c8a40
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: btW6TFHajhy7Eo6YUvdFiPh4TcPggo8GBXYctjV6zag
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access comments'
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'administer display modes'
+  - 'administer menu'
+  - 'create post content'
+  - 'delete own post content'
+  - 'edit own post content'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use text format basic_html'

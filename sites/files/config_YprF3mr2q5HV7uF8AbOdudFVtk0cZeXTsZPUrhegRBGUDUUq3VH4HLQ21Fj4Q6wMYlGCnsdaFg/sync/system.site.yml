@@ -1,0 +1,15 @@
+uuid: 3ebd2123-fe2b-443f-b69a-50d808a69aff
+name: 'Tell me your story'
+mail: vincent_chilot@live.be
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+mail_notification: ''
