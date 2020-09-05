@@ -1,4 +1,4 @@
-# Frupal 9: Bar Cat
+# Drupal 9: Bar Cat
 
 
 *September 2020*
