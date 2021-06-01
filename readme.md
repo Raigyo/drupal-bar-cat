@@ -9,6 +9,6 @@
 
 ![logo drupal](readme-img/drupal-2020.png)
 
-See the final result on my [website](https://raigyo-dev.be/bar-cat/).
+See the final result on my [website](https://raigyo-dev.be/dp-bar-cat/).
 
 (readme WIP)
